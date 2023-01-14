@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: bg-gray-100;
+  }
+  .brand-color {
+    background: linear-gradient(
+      104.63deg,
+      #c19311 0%,
+      #ebcb73 48.96%,
+      #eaac00 98.54%
+    );
+  }
+
+
+  .brand-color-semi-transparent{
+    background: linear-gradient(
+      104.63deg,
+      rgba(193, 147, 17, 0.4) 0%,
+      rgba(235, 203, 115, 0.4) 48.96%,
+      rgba(234, 172, 0, 0.4) 98.54%
+    );
+  }
+
+  .brand-color-opaque {
+    background: linear-gradient(
+      104.63deg,
+      rgba(193, 147, 17, 0.2) 0%,
+      rgba(235, 203, 115, 0.2) 48.96%,
+      rgba(234, 172, 0, 0.2) 98.54%
+    );
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .mw-button {
+    min-width: 175px;
+  }
+
+  .d-block {
+    display:block
+  }
+
+  .bg-gold {
+    background: linear-gradient(104.63deg, rgba(193 ,147 ,17, 0.2) , rgba(235 ,203 ,115, 0.2) , rgba(234 ,172 ,0 ,0.2));
+  }
+
+
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 2px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    padding: 10px;
+
+  }
+
+
+
+  
+}
